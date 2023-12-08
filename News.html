@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change News</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>	
+	<link rel="stylesheet" type="text/css" href="Master.css">
+
+	<script>
+		$(document).ready(function(){
+  		$('[data-toggle="popover"]').popover();      
+		});
+	</script>
+
+	<style type="text/css">
+		*{
+            padding: 0px;
+            margin: 0px;
+        }
+
+	</style>
+</head>
+<body>
+
+    <header style="background-color: black;">
+		<div class="container">
+			<div class="row">
+				<div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+					<img src="Images/logo2.png" class="img-fluid mx-auto" height="70" width="170">
+				</div>
+
+				<div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+					<form class="form-inline" style="margin-top: 30px; margin-left: 60px;">
+						<div class="input-group">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search">
+							<button class="btn btn-success" type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a class="nav-link"  href="index.html" style="width: 110px; text-align: center;"><b>HOME</b></a></li>
+					<li class="nav-item"><a class="nav-link"  href="Facts.html" style="width: 160px; text-align: center;"><b>FACTS</b></a></li>
+                    <li class="nav-item"><a class="nav-link"  href="Effects.html" style="width: 110px; text-align: center;"><b>EXPLORE</b></a></li>
+					<li class="nav-item  active" style="border-bottom: 3px solid rgb(243, 59, 27); font-size: 17px;"><a class="nav-link"  href="News.html" style="width: 110px; text-align: center;"><b>NEWS</b></a></li>
+					<li class="nav-item"><a class="nav-link"  href="Solution.html" style="width: 130px; text-align: center;"><b>SOLUTIONS</b></a></li>
+
+					<li class="nav-item"><a class="nav-link"  href="Contact.html" style="width: 110px; text-align: center;"><b>CONTACT</b></a></li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+
+    <div class="col">
+        <form class="form-inline" style="margin-top: 30px;">
+            <div class="input-group">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" style="width: 400px;  border: 2px solid black;">
+
+						     	<select class="form-control" name="All Years" id="bodytype" required="" style="width: fit-content; border: 2px solid black;">
+									<option value="0">-All Years-</option>
+									<option value="1">2019-2023</option>
+									<option value="2">2014-2018</option>
+									<option value="3">2009-2013</option>
+									<option value="4">2004-2008</option>
+									<option value="5">1999-2003</option>
+									<option value="6">1994-1998</option>
+									<option value="7">1889-1993</option>
+									<option value="8">1884 > .. </option>
+								</select> <span id="bodytypemsg"></span></b>
+
+
+                                <select class="form-control" name="All Topics-" id="bodytype" required="" style=" border: 2px solid black; margin-left: 1%;">
+									<option value="0">-All Topics-</option>
+									<option value="1">Atmosphere</option>
+									<option value="2">Carbon</option>
+									<option value="3">Energy</option>
+									<option value="4">Fresh Water</option>
+									<option value="5">Global Warming</option>
+									<option value="6">Ice</option>
+									<option value="7">Ocean</option>
+									<option value="8">People</option>
+								</select> 
+  
+            </div>
+        </form>
+    </div>
+
+    <div style="margin-top: 30px;">
+        <div class="card">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img id="img" src="Images/news1.jpg" class="img-thumbnail img-fluid" height="200" width="580">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <p>March 3, 2022</p>
+
+                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b><a href="https://climate.nasa.gov/news/3149/california-fire-led-to-spike-in-bacteria-cloudiness-in-coastal-waters/" style="color: black;"><h3>Fire Led to Spike in Bacteria, Cloudiness in Coastal Waters</h3></a></b><br>
+
+                    <h5>Scientists analyzed coastal water quality in the months following a major Southern California wildfire. Their results were eye-opening. </h5>
+                    </p>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="card">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img id="img" src="Images/news2.jpg" class="img-thumbnail img-fluid" height="200" width="580">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <p>December 5, 2023</p>
+
+                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b><a href="https://www.telegraphindia.com/world/india-skips-declaration-on-impact-of-climate-change-on-health-in-un-climate-change-conference-cop28/cid/1984373" style="color: black;"><h3>India skips declaration on impact of climate change on health in UN Climate Change Conference (COP28)</h3></a></b><br>
+
+                    <h5>The UN Climate Change Conference (COP28) in Dubai announced on Sunday that 123 countries had signed a declaration on the impact of climate change on health, an issue occupying centre-stage at a global climate summit for the first time.</h5>
+                    </p>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="card">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img id="img" src="Images/news3.jpg" class="img-thumbnail img-fluid" height="200" width="580">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <p>March 3, 2022</p>
+
+                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b><a href="https://www.telegraphindia.com/india/india-expects-un-climate-conference-in-dubai-to-deliver-clear-roadmap-on-climate-finance/cid/1983755" style="color: black;"><h3>India expects UN climate conference in Dubai to deliver 'clear roadmap' on climate finance</h3></a></b><br>
+
+                    <h5>The annual conference of the UN Framework on Climate Change opened in Dubai on Thursday amid concerns that the world is not on target to limit global temperature rise to 1.5°C but stirring hopes for progress on several issues, including finance.</h5>
+                    </p>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="card">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img id="img" src="Images/news4.jpg" class="img-thumbnail img-fluid" height="200" width="580">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <p>December 14, 2022</p>
+
+                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b><a href="https://climate.nasa.gov/news/3241/nasa-sensors-to-help-detect-methane-emitted-by-landfills/" style="color: black;"><h3>NASA Sensors to Help Detect Methane Emitted by Landfills</h3></a></b><br>
+
+                    <h5>A nonprofit group, Carbon Mapper, will use data from NASA’s EMIT mission, plus current airborne and future satellite instruments, to survey waste sites for methane emissions.</h5>
+                    </p>
+                </div>
+            </div>
+        </div><br>
+        <div class="card">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img id="img" src="Images/news5.jpg" class="img-thumbnail img-fluid" height="200" width="580">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <p>December 3, 2023</p>
+
+                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b><a href="https://news.un.org/en/story/2023/12/1144282" style="color: black;"><h3>COP28: Methane pledge by the ‘giants behind the climate crisis’ falls short, says Guterres</h3></a></b><br>
+
+                    <h5>UN Secretary-General António Guterres on Sunday sent a strong message to the oil and gas industry: the pledges made at COP28 in Dubai fall well short of what’s needed to meaningfully tackle the climate crisis.</h5>
+                    </p>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="card">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img id="img" src="Images/news6.jpg" class="img-thumbnail img-fluid" height="200" width="580">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <p>December 3, 2023</p>
+
+                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b><a href="https://climate.nasa.gov/news/3231/climate-change-can-put-more-insects-at-risk-for-extinction/" style="color: black;"><h3>Climate Change Can Put More Insects at Risk for Extinction</h3></a></b><br>
+
+                    <h5>A new analysis shows temperature fluctuations are an important factor in insect extinction risk.</h5>
+                    </p>
+                </div>
+            </div>
+        </div><br>
+
+
+
+    </div>
+
+    <footer class="bg-dark">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4>@ 2021 Climate Change . All Copy Rights Reserved. </h4>
+			</div>
+		</div>
+	</footer>
+
+
+    
+</body>
+</html>
